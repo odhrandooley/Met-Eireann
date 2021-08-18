@@ -6,7 +6,9 @@ Main Document
 - How to use: 
 - Find the lat lon coordinates for the centre of the area that you wish to project, also identify the Sentinel-2 tile in which the area is based.
 - Under 'Choose Sentinel Tile Here' adjust dirfiles to give the path of the tile that contains your desired area.
-- Check that you agree with the translations to primary of the different
+- Check that you agree with the primary translaions for each map
+- in 'Input Coords Here' input the latitude in 'centre_lat', the longitude in 'centre_lon' and the extent in metres either side in 'extent' for your map.
+- Run the notebook and you should get 6 plots of the area and a barplot of the breakdown of the area.
 - If you find the Sentinel-2 image is cloudy, you can choose the other image for that tile by changing the sentinel2safepath function
 
 def sentinel2safepath(path):
