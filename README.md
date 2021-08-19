@@ -1,7 +1,7 @@
 # Met-Eireann
 
 Main Document 
-- This python notebook allows you to project any area in Ireland as a Sentinel-2 satelite image, and as 5 different land cover maps, ECOSG, ESA-CCI, CORINE, Ulmas-Walsh and S2GLC.
+- This python notebook allows you to project any area in Ireland as a Sentinel-2 satelite image, and as 5 different land cover maps, ECOSG, ESA-CCI, CORINE, Ulmas-Walsh and S2GLC. Also, produces a barplot detailing the percentage breakdown for each land cover type for each map, as well as a barplot showing what land in one map is represented as in another map.
 
 How to use: 
 - Find the lat lon coordinates for the centre of the area that you wish to project, also identify the Sentinel-2 tile in which the area is based.
