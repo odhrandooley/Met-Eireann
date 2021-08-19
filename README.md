@@ -2,8 +2,7 @@
 
 Main Document 
 - This python notebook allows you to project any area in Ireland as a Sentinel-2 satelite image, and as 5 different land cover maps, ECOSG, ESA-CCI, CORINE, Ulmas-Walsh and S2GLC.
-
-- How to use: 
+How to use: 
 - Find the lat lon coordinates for the centre of the area that you wish to project, also identify the Sentinel-2 tile in which the area is based.
 - Under 'Choose Sentinel Tile Here' adjust dirfiles to give the path of the tile that contains your desired area.
 - Check that you agree with the primary translaions for each map
